@@ -7,6 +7,7 @@ import {
   LickrLogo,
   PiggyBankLogo,
   ImLearningLogo,
+  RicciLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
@@ -19,8 +20,7 @@ export const RESUME_DATA = {
     "Frontend Web3 Engineer focused on building products that help onboard web2 users into web3.",
   summary:
     "As a Frontend Engineer, I have successfully taken multiple products from 0 to 1. I love mentoring and ensuring that my team is in an environment where people can do their best work. Currently, I work mostly with TypeScript, React and React Native. I have over 5 years of experience in working remotely with teams around the world.",
-  avatarUrl:
-    "https://media.licdn.com/dms/image/C4E03AQE6LXa8CQFFJA/profile-displayphoto-shrink_800_800/0/1642697396277?e=1709769600&v=beta&t=sBP6U-vGpkn2ZhxHvjdstOV58U7-EgyQDBoFf5sjGmo",
+  avatarUrl: "",
   personalWebsiteUrl: "",
   contact: {
     email: "elliotreecewood@gmail.com",
@@ -45,6 +45,12 @@ export const RESUME_DATA = {
   },
   education: [
     {
+      school: "Buildspace",
+      degree: "Nights & Weekends S5",
+      start: "2022",
+      end: "2023",
+    },
+    {
       school: "Encode Club",
       degree: "Solidity Foundation",
       start: "2023",
@@ -65,6 +71,11 @@ export const RESUME_DATA = {
   ],
   awards: [
     {
+      name: "Best Use Of BlockScout Block Explorer Pool Prize Winner",
+      event: "ETHGlobal Brussels",
+      year: "2024",
+    },
+    {
       name: "Mantle Pool Prize Winner",
       event: "ETHGlobal Paris",
       year: "2023",
@@ -80,7 +91,7 @@ export const RESUME_DATA = {
       start: "Jul 2022",
       end: "Present",
       description:
-        "Primarily working on Volta, an app which enables financial institutions to seamlessly connect and interact with cryptocurrency exchanges, FX services and blockchain wallet custodians. Technologies: React Native, TypeScript, React, Next.js, AWS",
+        "Primarily working on Volta, an app which enables financial institutions to seamlessly connect and interact with cryptocurrency exchanges, FX services and blockchain wallet custodians. Other apps I've worked on include building an investment platform for a global investment firm (ATLAS SP) and working on a value creation platform for private equity companies (Maestro). Technologies: React Native, TypeScript, React, Next.js, AWS",
     },
     {
       company: "Cinch",
@@ -129,8 +140,29 @@ export const RESUME_DATA = {
     "React Query",
     "Tailwind",
     "Accessibility",
+    "Semantic HTML",
   ],
   projects: [
+    {
+      title: "VerifyScout",
+      techStack: ["Hackathon Project", "TypeScript", "React", "Next.js"],
+      description: "A dashboard for monitoring and verifying smart contracts",
+      logo: "",
+      link: {
+        label: "verifyscount",
+        href: "https://verifyscout.vercel.app/",
+      },
+    },
+    {
+      title: "Ricci Tennis",
+      techStack: ["Side Project", "Shopify"],
+      description: "Redefining tennis on and off-court",
+      logo: RicciLogo,
+      link: {
+        label: "riccitennis",
+        href: "https://www.riccitennis.com/",
+      },
+    },
     {
       title: "Una Money",
       techStack: [
@@ -177,7 +209,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Web3 Roadmap",
-      techStack: ["Side Project", "React", "AWS"],
+      techStack: ["Side Project", "React", "Typescript", "AWS"],
       description: "A web3 roadmap covering high level topics and concepts",
       logo: ImLearningLogo,
       link: {

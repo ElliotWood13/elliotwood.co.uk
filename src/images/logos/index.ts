@@ -6,6 +6,7 @@ import UnaMoneyLogo from "./unamoney_logo.png";
 import LickrLogo from "./lickr_logo.png";
 import PiggyBankLogo from "./piggybank_logo.png";
 import ImLearningLogo from "./imlearning_logo.png";
+import RicciLogo from "./ricci_logo.png";
 
 export {
   MotivePartnersLogo,
@@ -16,4 +17,5 @@ export {
   LickrLogo,
   PiggyBankLogo,
   ImLearningLogo,
+  RicciLogo,
 };
