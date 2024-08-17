@@ -1,25 +1,22 @@
-import {
-  CinchLogo,
-  MotivePartnersLogo,
-  VictorianPlumbingLogo,
-  AoLogo,
-  UnaMoneyLogo,
-  LickrLogo,
-  PiggyBankLogo,
-  ImLearningLogo,
-  RicciLogo,
-} from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import {
+  AoLogo,
+  CinchLogo,
+  ImLearningLogo,
+  MotivePartnersLogo,
+  PiggyBankLogo,
+  RicciLogo,
+  VictorianPlumbingLogo,
+} from "@/images/logos";
 
 export const RESUME_DATA = {
   name: "Elliot Wood",
   initials: "EW",
   location: "Manchester, England, BST",
   locationLink: "https://www.google.com/maps/place/Manchester",
-  about:
-    "Frontend Web3 Engineer focused on building products that help onboard web2 users into web3.",
+  about: "Senior Frontend Engineer skilled in building dynamic applications.",
   summary:
-    "As a Frontend Engineer, I have successfully taken multiple products from 0 to 1. I love mentoring and ensuring that my team is in an environment where people can do their best work. Currently, I work mostly with TypeScript, React and React Native. I have over 5 years of experience in working remotely with teams around the world.",
+    "As a Senior Frontend Engineer, I have successfully taken multiple products from 0 to 1. I love mentoring and ensuring that my team is in an environment where people can do their best work. Currently, I work mostly with TypeScript, React and JavaScript. I have over 5 years of experience in working remotely with teams around the world.",
   avatarUrl: "",
   personalWebsiteUrl: "",
   contact: {
@@ -45,26 +42,14 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "Buildspace",
-      degree: "Nights & Weekends S5",
-      start: "2022",
-      end: "2023",
-    },
-    {
       school: "Encode Club",
       degree: "Solidity Foundation",
       start: "2023",
       end: "2023",
     },
     {
-      school: "Buildspace",
-      degree: "Nights & Weekends S2",
-      start: "2022",
-      end: "2023",
-    },
-    {
       school: "BCS, The Chartered Institute for IT",
-      degree: "Level 4 Software Development",
+      degree: "Level 4 Diploma Software Development",
       start: "2020",
       end: "2020",
     },
@@ -86,18 +71,18 @@ export const RESUME_DATA = {
       company: "Motive Partners",
       link: "https://www.motivepartners.com/",
       badges: ["Remote"],
-      title: "Frontend Engineer, Digital Assets",
+      title: "Frontend Engineer → Senior Frontend Engineer",
       logo: MotivePartnersLogo,
       start: "Jul 2022",
       end: "Present",
       description:
-        "Primarily working on Volta, an app which enables financial institutions to seamlessly connect and interact with cryptocurrency exchanges, FX services and blockchain wallet custodians. Other apps I've worked on include building an investment platform for a global investment firm (ATLAS SP) and working on a value creation platform for private equity companies (Maestro). Technologies: React Native, TypeScript, React, Next.js, AWS",
+        "Worked across multiple fintech products in diverse teams across different time zones, contributing to the success of projects for some of the world`s largest financial institutions including banks with over 71 million customers. Technologies: React Native, TypeScript, React, Next.js, AWS",
     },
     {
       company: "Cinch",
       link: "https://www.cinch.co.uk/",
       badges: ["Remote"],
-      title: "Frontend Developer",
+      title: "Software Engineer",
       logo: CinchLogo,
       start: "Jul 2021",
       end: "Jul 2022",
@@ -139,24 +124,27 @@ export const RESUME_DATA = {
     "AWS",
     "React Query",
     "Tailwind",
+    "GraphQL",
     "Accessibility",
     "Semantic HTML",
   ],
   projects: [
     {
-      title: "VerifyScout",
-      techStack: ["Hackathon Project", "TypeScript", "React", "Next.js"],
-      description: "A dashboard for monitoring and verifying smart contracts",
+      title: "Paw - Cat Insurance",
+      techStack: ["Flutter"],
+      description:
+        "A POC for how an existing pet insurance company could improve user experience and boost conversion",
       logo: "",
       link: {
-        label: "verifyscount",
-        href: "https://verifyscout.vercel.app/",
+        label: "pawcatinsurance",
+        href: "https://paw-video.vercel.app/",
       },
     },
     {
       title: "Ricci Tennis",
-      techStack: ["Side Project", "Shopify"],
-      description: "Redefining tennis on and off-court",
+      techStack: ["Side Project", "Shopify, Canva"],
+      description:
+        "A tennis clothing brand passion project leveraging advanced design tools for AI generation and logo creation",
       logo: RicciLogo,
       link: {
         label: "riccitennis",
@@ -164,57 +152,36 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Una Money",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "React Native",
-        "Ethers.js",
-        "Solidity",
-      ],
-      description: "A web3 savings account for web2 users",
-      logo: UnaMoneyLogo,
+      title: "imlearning",
+      techStack: ["Side Project", "React", "Typescript", "AWS"],
+      description:
+        "A platform designed to help individuals enter the tech industry as developers",
+      logo: ImLearningLogo,
       link: {
-        label: "una.money",
-        href: "https://www.una.money/",
+        label: "imlearning.com",
+        href: "https://imlearning.com",
       },
     },
     {
-      title: "Lickr",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "React",
-        "GraphQL",
-        "Ethers.js",
-        "MetaMask",
-      ],
+      title: "VerifyScout",
+      techStack: ["Hackathon Project", "TypeScript", "React", "Next.js"],
       description:
-        "An app that allows a user to view all Gelato Network ‘ice cream’ tasks",
-      logo: LickrLogo,
+        "A dashboard for monitoring and verifying smart contracts. Blockscout prize winner at ETHGlobal Brussels hackathon",
+      logo: "",
       link: {
-        label: "gelato-ice-cream.vercel.app",
-        href: "https://gelato-ice-cream.vercel.app",
+        label: "verifyscount",
+        href: "https://verifyscout.vercel.app/",
       },
     },
     {
       title: "PiggyBank Vault",
       techStack: ["Side Project", "React", "Wagmi", "Solidity", "Tailwind"],
-      description: "Deposit ETH or WETH in return for yummy 'HAM' tokens",
+      description:
+        "A web3 vault allowing users to deposit ETH or WETH in return for `HAM` tokens. Mantle prize winner at ETHGlobal Paris hackathon",
       logo: PiggyBankLogo,
       link: {
-        label: "piggybankvault.vercel.app",
+        label: "piggybankvault",
         href: "https://piggybankvault.vercel.app",
-      },
-    },
-    {
-      title: "Web3 Roadmap",
-      techStack: ["Side Project", "React", "Typescript", "AWS"],
-      description: "A web3 roadmap covering high level topics and concepts",
-      logo: ImLearningLogo,
-      link: {
-        label: "imlearning.com",
-        href: "https://imlearning.com/roadmap/web3",
       },
     },
   ],
